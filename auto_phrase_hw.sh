@@ -20,11 +20,11 @@ else
     MODELS_DIR=${MODELS_DIR:- default_models}
 fi
 ## DEBUG
-MODEL=${MODEL:- ${MODELS_DIR}/movies}
+MODEL=${MODEL:- ${MODELS_DIR}/news}
 # RAW_TRAIN is the input of AutoPhrase, where each line is a single document.
 ## DEBUG
 # DEFAULT_TRAIN=${DATA_DIR}/EN/DBLP.txt
-DEFAULT_TRAIN="assignment/movies_train.txt"
+DEFAULT_TRAIN="assignment/news_train.txt"
 RAW_TRAIN=${RAW_TRAIN:- $DEFAULT_TRAIN}
 # When FIRST_RUN is set to 1, AutoPhrase will run all preprocessing. 
 # Otherwise, AutoPhrase directly starts from the current preprocessed data in the tmp/ folder.
