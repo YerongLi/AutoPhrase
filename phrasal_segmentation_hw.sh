@@ -8,7 +8,8 @@ else
 fi
 # DEBUG
 # MODEL=${MODEL:- ${MODELS_DIR}/DBLP}
-MODEL=${MODEL:- ${MODELS_DIR}/movies}
+# MODEL=${MODEL:- ${MODELS_DIR}/movies}
+MODEL=${MODEL:- ${MODELS_DIR}/news}
 if [ -d "default_data" ]; then
     DATA_DIR=${DATA_DIR:- default_data}
 else
